@@ -1,4 +1,4 @@
 
 (fp_lib_table
-  (lib (name "spang_badge")(type KiCad)(uri "$(KIPRJMOD)/spang_badge.pretty")(options "")(descr ""))
+  (lib (name "vineshroom_badge")(type KiCad)(uri "$(KIPRJMOD)/vineshroom_badge.pretty")(options "")(descr ""))
 )

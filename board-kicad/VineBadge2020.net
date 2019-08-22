@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ghaack/projects/VineBadge2020/board-kicad/VineBadge2020.sch)
-    (date "Thu 04 Jul 2019 03:15:14 PM PDT")
+    (date "Wed 21 Aug 2019 10:56:02 PM PDT")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref IC1)
       (value ATTINY20-X)
-      (footprint SMD_Packages:SSOP-14)
+      (footprint spang_badge:ATTINY20_SOIC-14)
       (libsource (lib atmel) (part ATTINY20-X))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D1D3FEE))
@@ -548,10 +548,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib)))
   (nets

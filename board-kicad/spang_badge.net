@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ghaack/projects/VineBadge2020/board-kicad/spang_badge.sch)
-    (date "Thu 22 Aug 2019 10:50:07 PM PDT")
+    (date "Fri 23 Aug 2019 12:31:42 AM PDT")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -95,7 +95,7 @@
       (tstamp 5D575861))
     (comp (ref SW1)
       (value SW_SPST)
-      (footprint Buttons_Switches_SMD:SW_SPST_B3U-3000P)
+      (footprint spang_badge:EVQ-P7B01P)
       (libsource (lib Switch) (part SW_SPST))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D5F7F0D))

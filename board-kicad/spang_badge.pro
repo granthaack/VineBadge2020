@@ -1,7 +1,7 @@
 
-update=2018 March 15, Thursday 14:41:19
+update=Thu 22 Aug 2019 09:16:46 PM PDT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -59,3 +59,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=Switch
+LibName31=switches

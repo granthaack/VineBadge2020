@@ -1,5 +1,5 @@
 
-update=Thu 22 Aug 2019 10:20:46 PM PDT
+update=Sun 25 Aug 2019 06:59:06 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -60,3 +60,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=spang_badge-cache
+LibName31=VineBadge2020

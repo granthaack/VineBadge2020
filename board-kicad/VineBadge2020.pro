@@ -1,6 +1,6 @@
-update=Wed 03 Jul 2019 04:52:22 PM PDT
+update=Sun 25 Aug 2019 09:41:15 PM PDT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=VineBadge2020
+LibName31=Switch
+LibName32=switches

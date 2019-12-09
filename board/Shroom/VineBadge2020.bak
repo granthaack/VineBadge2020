@@ -633,7 +633,7 @@ F 1 "LED" H 15950 3950 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 15950 4050 50  0001 C CNN
 F 3 "" H 15950 4050 50  0000 C CNN
 	1    15950 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L LED D51
@@ -808,8 +808,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2750 2050 2700
 Wire Wire Line
-	4450 1500 17750 1500
-Wire Wire Line
 	4450 1600 6400 1600
 Wire Wire Line
 	6400 1600 6400 1700
@@ -909,9 +907,6 @@ Connection ~ 14750 1500
 Wire Wire Line
 	16550 1500 16550 3500
 Connection ~ 16550 1500
-Wire Wire Line
-	16550 3850 16550 3800
-Connection ~ 16550 3850
 Connection ~ 7550 1500
 Wire Wire Line
 	7550 1800 7550 1900
@@ -1094,26 +1089,16 @@ Connection ~ 15050 1500
 Wire Wire Line
 	15350 1500 15350 3500
 Connection ~ 15350 1500
-Connection ~ 15950 4200
 Connection ~ 15650 4200
 Wire Wire Line
 	15650 2250 15650 3900
 Connection ~ 15650 2250
-Wire Wire Line
-	15950 2250 15950 3900
 Connection ~ 15950 2250
 Wire Wire Line
 	7100 2250 15950 2250
 Wire Wire Line
-	16250 3850 16250 3800
-Connection ~ 16250 3850
-Wire Wire Line
 	16250 1500 16250 3500
 Connection ~ 16250 1500
-Wire Wire Line
-	6900 3850 16550 3850
-Wire Wire Line
-	7150 1850 17150 1850
 Connection ~ 7550 4200
 Wire Wire Line
 	1650 3650 4050 3650
@@ -1221,28 +1206,6 @@ Wire Wire Line
 	3650 3350 4050 3350
 Wire Wire Line
 	3350 3350 3150 3350
-$Comp
-L TEST TEST4
-U 1 1 5DDB3DBD
-P 1650 3250
-F 0 "TEST4" H 1650 3550 50  0000 C BNN
-F 1 "TP_BATT" H 1650 3500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1650 3250 50  0001 C CNN
-F 3 "" H 1650 3250 50  0000 C CNN
-	1    1650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST TEST5
-U 1 1 5DDB472A
-P 1650 3650
-F 0 "TEST5" H 1650 3950 50  0000 C BNN
-F 1 "TP_GND" H 1650 3900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1650 3650 50  0001 C CNN
-F 3 "" H 1650 3650 50  0000 C CNN
-	1    1650 3650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2550 3150 2850 3150
 $Comp
@@ -1251,7 +1214,7 @@ U 1 1 5DDE22CA
 P 2350 3250
 F 0 "SW1" H 2350 3420 50  0000 C CNN
 F 1 "SW_SPDT" H 2350 3050 50  0000 C CNN
-F 2 "VineBadge2020:JS202011JAQN" H 2350 3250 50  0001 C CNN
+F 2 "VineBadge2020:JS202011JAQN-Handsolder" H 2350 3250 50  0001 C CNN
 F 3 "" H 2350 3250 50  0000 C CNN
 	1    2350 3250
 	1    0    0    -1  
@@ -1300,4 +1263,19 @@ F 3 "" H 5300 2600 50  0000 C CNN
 	1    5300 2600
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	16250 3800 16250 4200
+Connection ~ 16250 4200
+Wire Wire Line
+	16550 3800 16550 4200
+Connection ~ 16550 4200
+Wire Wire Line
+	15950 2250 15950 3900
+Connection ~ 15950 4200
+Wire Wire Line
+	6900 3850 15350 3850
+Wire Wire Line
+	4450 1500 16550 1500
+Wire Wire Line
+	12950 1850 7150 1850
 $EndSCHEMATC

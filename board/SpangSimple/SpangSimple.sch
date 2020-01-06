@@ -249,8 +249,6 @@ Connection ~ 8850 3750
 Wire Wire Line
 	8250 4900 7050 4900
 Wire Wire Line
-	3500 3650 4050 3650
-Wire Wire Line
 	4350 3650 4500 3650
 Wire Wire Line
 	4950 3600 4950 3650
@@ -276,4 +274,19 @@ F 3 "" H 4650 3650 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3500 3750 3500 3650
+$Comp
+L Fuse F1
+U 1 1 5E13951B
+P 3750 3650
+F 0 "F1" V 3830 3650 50  0000 C CNN
+F 1 "Fuse" V 3675 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0000 C CNN
+	1    3750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 3650 4050 3650
+Wire Wire Line
+	3500 3650 3600 3650
 $EndSCHEMATC

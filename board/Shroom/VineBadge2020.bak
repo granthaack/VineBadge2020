@@ -691,17 +691,6 @@ F 3 "" H 3850 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse F1
-U 1 1 5D237CDD
-P 3500 3850
-F 0 "F1" V 3600 3850 50  0000 C CNN
-F 1 "Fuse" V 3425 3850 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" V 3430 3850 50  0001 C CNN
-F 3 "" H 3500 3850 50  0000 C CNN
-	1    3500 3850
-	0    1    1    0   
-$EndComp
-$Comp
 L R R9
 U 1 1 5D239135
 P 4700 2900
@@ -1136,11 +1125,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 1500 2050 1400
 Wire Wire Line
-	3850 3900 3850 3850
+	3850 3850 3850 3900
 Wire Wire Line
-	3850 3850 3650 3850
-Wire Wire Line
-	3350 3850 3050 3850
+	3050 3850 3850 3850
 Wire Wire Line
 	3050 3850 3050 3750
 Wire Wire Line

@@ -1,0 +1,9 @@
+### Module positions - created on Sun Feb  9 15:30:57 2020 ###
+### Printed by Pcbnew version kicad 4.0.5+dfsg1-4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                     PosX       PosY       Rot  Side
+D57       D_Schottky  SOD-323_HandSoldering   150.8760  -123.6980  270.0000  bottom
+R9        1K          R_0805_HandSoldering    156.4640  -110.4900  315.0000  bottom
+SW2       SW_Push     SW_SPST_TL3342          125.4760   -86.8680    0.0000  bottom
+## End
